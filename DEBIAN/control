@@ -1,0 +1,9 @@
+Package: glish-scanner
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Beidi Dina Samuel
+Description: interactive scan with logs by BEIDI DINA SAMUEL
+Depends: bash, dialog, xterm, nmap, dmitry, masscan, hping3, unicornscan, zmap
+
