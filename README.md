@@ -15,8 +15,6 @@ Ce script permet de scanner des ports et d'analyser une adresse IP cible à l'ai
 
 ### 1. **Installation**
 
-Si tu as généré un paquet `.deb`, tu peux l'installer en utilisant la commande suivante :
-
 ```bash
 sudo dpkg -i glish-scanner.deb
 ```
@@ -100,9 +98,3 @@ sudo apt install dialog xterm nmap dmitry netcat masscan hping3 unicornscan zmap
 ```
 
 ---
-
-### **Dépannage**
-
-- Si tu rencontres des problèmes avec les permissions, assure-toi que le répertoire de contrôle des fichiers Debian (`DEBIAN`) a les bonnes permissions, comme indiqué dans l'erreur que tu as rencontrée.
-- Si tu obtiens une erreur liée à `sudo`, vérifie que tu exécutes bien le script avec `sudo`.
-
